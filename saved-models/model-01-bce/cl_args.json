@@ -1,0 +1,21 @@
+{
+  "model_name": "model-01-bce",
+  "gnn": "gin",
+  "num_layers": 2,
+  "neigh_samples": [
+    25,
+    10
+  ],
+  "embed_dim": 128,
+  "dim_a": 16,
+  "activation": "elu",
+  "dropout": 0.25,
+  "loss": "bce",
+  "neg_samples": 5,
+  "patience": 3,
+  "num_workers": 4,
+  "batch_size": 6144,
+  "epochs": 10,
+  "learn_rate": 0.0005,
+  "device": "cuda:2"
+}

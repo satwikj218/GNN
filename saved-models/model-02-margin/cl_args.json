@@ -1,0 +1,22 @@
+{
+  "model_name": "model-02-margin",
+  "gnn": "gin",
+  "num_layers": 2,
+  "neigh_samples": [
+    25,
+    10
+  ],
+  "embed_dim": 128,
+  "dim_a": 16,
+  "activation": "elu",
+  "dropout": 0.25,
+  "loss": "margin",
+  "neg_samples": 20,
+  "patience": 3,
+  "num_workers": 4,
+  "batch_size": 6144,
+  "epochs": 50,
+  "learn_rate": 0.0005,
+  "device": "cuda:1",
+  "load_checkpoint": null
+}
